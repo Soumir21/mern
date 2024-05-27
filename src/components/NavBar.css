@@ -1,0 +1,28 @@
+
+.container{
+    max-width: 140rem;
+    padding:2.4rem 4.2rem ;
+    display: flex;
+    justify-content: space-between;
+    text-transform:capitalize;
+    font-size: 1rem;
+}
+
+
+.navLinks{
+    display: flex;
+    gap: 2rem;
+}
+
+li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navbarLink{
+    text-decoration: none;
+}
+
+.navbarLink:active{
+    text-decoration: underline;
+}
